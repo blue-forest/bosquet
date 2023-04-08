@@ -1,7 +1,7 @@
-name: Update GitHub Pages
+name: Deploy GitHub Pages
 
 on:
-  push: { branches: [main] }
+  push: { branches: [ master ] }
   workflow_dispatch:
 
 permissions:
