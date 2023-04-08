@@ -1,0 +1,23 @@
+baseURL = 'https://bosquet.blueforest.cc/'
+languageCode = 'fr-fr'
+title = 'Le Bosquet'
+theme = 'flat'
+
+disableHugoGeneratorInject = true
+
+[author]
+  name = "Blue Forest"
+
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = false
+noClasses = false
+noHl = false
+style = 'monokailight'
+tabWidth = 2
