@@ -1,7 +1,6 @@
 baseURL = 'https://bosquet.blueforest.cc/'
 languageCode = 'fr-fr'
 title = 'Le Bosquet'
-theme = 'flat'
 
 disableHugoGeneratorInject = true
 
