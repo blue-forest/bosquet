@@ -39,10 +39,8 @@
         {{ .Content }}
     </div>
 
-    {{ with and .Site.Params.remark42 .Params.show_comments }}
-        <hr />
-        {{ partial "comment.html" . }}
-    {{ end }}
+    <hr />
+    {{ partial "comment.html" . }}
 </section>
 
 {{ end }}
