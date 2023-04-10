@@ -6,10 +6,20 @@
     <div class="tip">
         <time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "02/01/2006" }}</time>
         <span class="split">·</span>
-        <span> {{ .WordCount }} mots </span>
-        <span class="split">·</span>
+        {{ with .Params.author }}
         <span>
-            {{ .ReadingTime }} minute{{ if ne .ReadingTime 1 }}s{{ end }} en moyenne à lire
+            Rédigé par {{ if eq . "nazim" }}<a href="https://github.com/n4zim" target="_blank">Nazim</a>
+            {{ else if eq . "vulcain" }}<a href="https://github.com/vulc41n" target="_blank">Vulcain</a>
+            {{ else if eq . "ariane" }}<a href="https://github.com/ariane5s" target="_blank">Ariane</a>
+            {{ else }}{{ . }}{{ end }}
+        </span>
+        {{ end }}
+    </div>
+
+    <div class="taxonomies">
+        <span>
+            {{ .WordCount }} mots
+            ({{ .ReadingTime }} minute{{ if ne .ReadingTime 1 }}s{{ end }} en moyenne à lire)
         </span>
     </div>
 
@@ -25,7 +35,7 @@
 
         {{ with .Params.tags }}
             <div>
-                Tags :
+                Étiquettes :
                 {{ range . }}
                     <a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
                 {{ end }}

@@ -24,7 +24,7 @@
 
                     {{ with .Params.Tags }}
                         <div class="tags">
-                            <span>Tags :</span>
+                            <span>Étiquettes :</span>
                             {{ range first 5 . }}
                                 <a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
                             {{ end }}

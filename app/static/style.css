@@ -165,7 +165,8 @@ body {
 .main,
 .side-recent,
 .side-categories,
-.side-tags
+.side-tags,
+.side-email
 {
   background-color: var(--color-bg-content);
 }
