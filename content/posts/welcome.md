@@ -15,3 +15,6 @@ Ceci est un post de test
 ```js
 console.log("Hello World")
 ```
+
+## GitHub code
+{{< github "configs/nginx.yml" >}}

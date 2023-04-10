@@ -455,13 +455,13 @@ body {
   vertical-align: top;
 }
 
-.content table td,
-.content table td {
+/*.content table td, .content table td {
   border-spacing: none;
   border-style: solid;
   padding: 10px 15px;
   border-width: 1px 0 0 0;
-}
+}*/
+
 .content thead th,
 .content thead th {
   text-align: left;
@@ -478,9 +478,9 @@ body {
   border: 1px solid #dadadc;
 }
 
-.content tr:nth-child(odd)>td {
+/*.content tr:nth-child(odd)>td {
   background: #fcfcfc;
-}
+}*/
 
 .content h1,
 .content h2,
