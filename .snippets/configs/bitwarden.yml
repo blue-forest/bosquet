@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  nginx:
+    image: vaultwarden/server:latest
+    ports: [ "80:80" ]
+    env:
+      DOMAIN: #- Domaine de l'instance
+      SIGNUPS_ALLOWED: "true"
+      INVITATIONS_ALLOWED: "true"
+      WEBSOCKET_ENABLED: "true"
+      SMTP_HOST: #- Hôte du serveur SMTP
+      SMTP_FROM: #- Adresse email d'envoi
+      SMTP_USERNAME: #- Nom d'utilisateur SMTP
+      SMTP_PASSWORD: #- Mot de passe SMTP
+      SERVER_ADMIN_EMAIL: #- Adresse email de l'administrateur
+    volumes:
+    - ./data:/data
