@@ -1,80 +1,23 @@
-/* defines light color */
-:root {
-  --color-light-bg-page: #EBEBEB;
-  --color-light-bg-content: #F4F4F4;
-  --color-light-bg-block: #EBEBEB;
-  --color-light-bg-shadow: #E0E0E0;
-  --color-light-fg-font-normal: #4E403E;
-  --color-light-fg-font-hover: #555555;
-  --color-light-fg-font-block: #53504D;
-  --color-light-fg-font-quote: #57606A;
-  --color-light-fg-tiny-line: #e0e0e0;
-  --color-light-fg-marker-quote: #BFBFBF;
-  --color-light-fg-hyperlink: #FF5F61;
-  --color-light-fg-hyperlink-hover: #FC3134;
-  --color-light-bg-pager: #000000;
-  --color-light-fg-pager: #000000;
-}
-
-/* defines dark color */
-:root {
-  --color-dark-bg-page: #2F2F2F;
-  --color-dark-bg-content: #453B3B;
-  --color-dark-bg-block: #4E403E;
-  --color-dark-bg-shadow: #505050;
-  --color-dark-fg-font-normal: #E8E8E8;
-  --color-dark-fg-font-hover: #CECECD;
-  --color-dark-fg-font-block: #E8E8E8;
-  --color-dark-fg-font-quote: #8B8680;
-  --color-dark-fg-tiny-line: #585858;
-  --color-dark-fg-marker-quote: #6F6B66;
-  --color-dark-fg-hyperlink: #FF5F61;
-  --color-dark-fg-hyperlink-hover: #FC3134;
-  --color-dark-bg-pager: #000000;
-  --color-dark-fg-pager: #000000;
-}
-
-:root {
-  --color-bg-page:            var(--color-light-bg-page);
-  --color-bg-content:         var(--color-light-bg-content);
-  --color-bg-block:           var(--color-light-bg-block);
-  --color-bg-shadow:          var(--color-light-bg-shadow);
-  --color-fg-font-normal:     var(--color-light-fg-font-normal);
-  --color-fg-font-hover:      var(--color-light-fg-font-hover);
-  --color-fg-font-block:      var(--color-light-fg-font-block);
-  --color-fg-font-quote:      var(--color-light-fg-font-quote);
-  --color-fg-tiny-line:       var(--color-light-fg-tiny-line);
-  --color-fg-marker-quote:    var(--color-light-fg-marker-quote);
-  --color-fg-hyperlink:       var(--color-light-fg-hyperlink);
-  --color-fg-hyperlink-hover: var(--color-light-fg-hyperlink-hover);
-  --color-bg-pager:           var(--color-light-bg-pager);
-  --color-fg-pager:           var(--color-light-fg-pager);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-bg-page:            var(--color-dark-bg-page);
-    --color-bg-content:         var(--color-dark-bg-content);
-    --color-bg-block:           var(--color-dark-bg-block);
-    --color-bg-shadow:          var(--color-dark-bg-shadow);
-    --color-fg-font-normal:     var(--color-dark-fg-font-normal);
-    --color-fg-font-hover:      var(--color-dark-fg-font-hover);
-    --color-fg-font-block:      var(--color-dark-fg-font-block);
-    --color-fg-font-quote:      var(--color-dark-fg-font-quote);
-    --color-fg-tiny-line:       var(--color-dark-fg-tiny-line);
-    --color-fg-marker-quote:    var(--color-dark-fg-marker-quote);
-    --color-fg-hyperlink:       var(--color-dark-fg-hyperlink);
-    --color-fg-hyperlink-hover: var(--color-dark-fg-hyperlink-hover);
-    --color-bg-pager:           var(--color-dark-bg-pager);
-    --color-fg-pager:           var(--color-dark-fg-pager);
-  }
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap");
 
 :root {
   --fonts-sans: "Lexend", sans-serif;
   --fonts-mono: "DejaVu Sans Mono", "Noto Sans Mono", "Consolas", "Courier", monospace;
+
+  --color-bg-page:            #262626;
+  --color-bg-content:         #333333;
+  --color-bg-block:           #3B3D63;
+  --color-bg-shadow:          #6C6F99;
+  --color-fg-font-normal:     #D5D5D5;
+  --color-fg-font-hover:      #BEBEBE;
+  --color-fg-font-block:      #D5D5D5;
+  --color-fg-font-quote:      #8B8680;
+  --color-fg-tiny-line:       #858585;
+  --color-fg-marker-quote:    #9E9C96;
+  --color-fg-hyperlink:       #4F527E;
+  --color-fg-hyperlink-hover: #3B3D63;
+  --color-bg-pager:           #000000;
+  --color-fg-pager:           #000000;
 
   --color-light-1: #e0e0e0;
   --color-light-2: #e8e8e8;
@@ -89,10 +32,10 @@
   --color-black-4: #101010;
   --color-black-5: #020202;
 
-  --color-fav-0: #EDD5DD;
-  --color-fav-1: #F0B3B2;
-  --color-fav-2: #DE629E;
-  --color-fav-3: #CB3E50;
+  --color-fav-0: #BEBEBE;
+  --color-fav-1: #8B8680;
+  --color-fav-2: #6C6F99;
+  --color-fav-3: #4F527E;
 
   --len-0: 0.00rem;
   --len-1: 0.25rem;
@@ -229,6 +172,15 @@ body {
     margin-top: var(--len-3);
     padding-top: var(--len-3);
     border-top: 1px solid var(--color-fg-tiny-line);
+  }
+
+  header > .header {
+    justify-content: center;
+  }
+
+  header > .header > span {
+    margin-left: 0 !important;
+    padding-bottom: var(--len-4);
   }
 }
 
@@ -685,7 +637,7 @@ body {
 .pagination a.current {
   background-color: var(--color-fav-1);
   pointer-events: none;
-  color: var(--color-fg-font-normal);
+  color: var(--color-black-5);
   cursor: default;
 }
 
