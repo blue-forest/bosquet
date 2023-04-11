@@ -6,3 +6,8 @@ draft: true
 categories: [ Open Source ]
 tags: [ Développement ]
 ---
+
+
+# Démarrage rapide
+
+{{< getting_started "Gitea" "gitea" >}}

@@ -60,16 +60,4 @@ Application Android : [play.google.com/store/apps/details?id=com.x8bit.bitwarden
 
 # Démarrage rapide
 
-Vous pouvez utiliser le fichier de configuration suivant pour démarrer un serveur Vaultwarden avec Docker :
-
-{{< github "configs/bitwarden.yml" >}}
-
-Si NodeJS est installé sur votre machine ([en savoir plus sur NodeJS](/posts/nodejs/)), vous pouvez utiliser la commande :
-```bash
-npx bosquet -y bitwarden
-```
-
-Sinon, pour n'utiliser que Docker ([en savoir plus sur Docker](/posts/docker/)), vous pouvez utiliser la commande :
-```bash
-docker run --rm -it -v $HOME/.bosquet/:/root/.bosquet node:alpine npx -y bosquet bitwarden
-```
+{{< getting_started "Vaultwarden" "bitwarden" >}}

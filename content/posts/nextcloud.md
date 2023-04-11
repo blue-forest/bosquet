@@ -6,3 +6,8 @@ draft: true
 categories: [ Open Source ]
 tags: [ Productivité ]
 ---
+
+
+# Démarrage rapide
+
+{{< getting_started "Nextcloud" "nextcloud" >}}

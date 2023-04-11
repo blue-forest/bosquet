@@ -6,3 +6,8 @@ draft: true
 categories: [ Open Source ]
 tags: [ Multimédia ]
 ---
+
+
+# Démarrage rapide
+
+{{< getting_started "Jellyfin" "jellyfin" >}}
