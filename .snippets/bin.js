@@ -1,16 +1,8 @@
 #! /usr/bin/env node
 
-const { execSync } = require("child_process")
 const { homedir } = require("os")
 const { join } = require("path")
 const { existsSync, mkdirSync } = require("fs")
-
-try {
-  execSync("docker --version")
-} catch (e) {
-  console.log("Docker is not installed")
-  process.exit(1)
-}
 
 const configs = {
   nginx: require("./nginx"),

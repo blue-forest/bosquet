@@ -30,10 +30,20 @@ module.exports = function (config) {
     }
     writeFileSync(join(cwd, "docker-compose.yml"), output)
 
-    spawnSync("docker", ["compose", "up"], {
-      cwd,
-      env: { FORCE_COLOR: "1" },
-      stdio: [ process.stdin, process.stdout, process.stderr ],
-    })
+    let execute = true
+    try {
+      execSync("docker --version")
+    } catch (e) {
+      console.log("Docker is not installed, skipping execution")
+      execute = false
+    }
+
+    if(execute) {
+      spawnSync("docker", ["compose", "up"], {
+        cwd,
+        env: { FORCE_COLOR: "1" },
+        stdio: [ process.stdin, process.stdout, process.stderr ],
+      })
+    }
   }
 }
