@@ -1,6 +1,6 @@
 version: "3.7"
 services:
-  nginx:
+  server:
     image: vaultwarden/server:latest
     ports: [ "80:80" ]
     env:
