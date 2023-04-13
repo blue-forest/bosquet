@@ -9,8 +9,6 @@ services:
       MYSQL_DATABASE: gitea
     volumes:
     - ./database:/var/lib/mysql
-    ports:
-    - "3306:3306/tcp"
   server:
     image: gitea/gitea:latest
     environment:
@@ -22,5 +20,5 @@ services:
     volumes:
     - ./data:/data
     ports:
-    - "3000:3000/tcp"
-    - "22:22/tcp"
+    - "3000:3000"
+    - "22:22"
