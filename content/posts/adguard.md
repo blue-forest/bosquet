@@ -1,6 +1,6 @@
 ---
 title: Bloquez les publicités et les traceurs sur tous vos appareils avec AdGuard Home
-date: 2023-04-10T14:54:06+02:00
+date: 2023-04-05T04:20:00+01:00
 author: nazim
 draft: true
 categories: [ Open Source ]
@@ -13,7 +13,7 @@ Le fonctionnent de ces extensions est simple : elles bloquent les requêtes vers
 
 Un serveur DNS est un programme qui permet de résoudre les noms de domaines en adresses IP. Par exemple, quand vous tapez `bosquet.blueforest.cc` dans votre navigateur, votre navigateur va demander à votre serveur DNS quelle est l'adresse IP qu'il faut utiliser pour accéder à ce site. Là où ça devient intéressant, c'est que vous pouvez utiliser un serveur DNS qui filtre les requêtes et qui bloque les publicités et les traceurs avant même que votre navigateur ne les reçoive.
 
-De manière générale, le serveur DNS que vous utilisez est celui de votre Fourreur d'Accès Internet (FAI). C'est lui qui va vous donner l'adresse IP du site que vous demandez. Cependant, vous pouvez utiliser un autre serveur DNS, comme par exemple celui de Google (`8.8.8.8`) ou encore celui de Cloudflare (`1.1.1.1`). Ces serveurs DNS sont gratuits et ne vous demandent pas de créer de compte. Un serveur DNS peut être configuré sur votre ordinateur, votre smartphone ou votre routeur pour qu'il soit utilisé par tous les appareils de votre réseau local.
+De manière générale, le serveur DNS que vous utilisez est celui de votre Fourreur d'Accès Internet (FAI). C'est lui qui va vous donner l'adresse IP du site que vous demandez. Cependant, vous pouvez utiliser un autre serveur DNS, comme par exemple celui de Google (`8.8.8.8`), celui de Cloudflare (`1.1.1.1`) ou encore celui de Quad9 (`9.9.9.9`). Ces serveurs DNS sont gratuits et ne vous demandent pas de créer de compte. Un serveur DNS peut être configuré sur votre ordinateur, votre smartphone ou votre routeur pour qu'il soit utilisé par tous les appareils de votre réseau local.
 
 Aujourd'hui nous allons voir comment héberger notre propre serveur DNS et qui va faire office de filtre pour bloquer les publicités et traceurs avant de demander à un autre serveur DNS (ceux cités plus haut) de résoudre le nom de domaine. Parmi les projets Open Source qui permettent de faire cela, vous avez par exemple [Pi-Hole](https://pi-hole.net), [DNSCrypt](https://www.dnscrypt.org) ou encore [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome), celui que nous allons utiliser ici.
 
