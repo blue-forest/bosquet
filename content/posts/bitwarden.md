@@ -58,6 +58,4 @@ Extension Chrome : [chrome.google.com/webstore/detail/bitwarden-free-password-m/
 Application Android : [play.google.com/store/apps/details?id=com.x8bit.bitwarden](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
 
 
-# Démarrage rapide
-
 {{< getting_started "Vaultwarden" "bitwarden" >}}

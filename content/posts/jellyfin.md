@@ -8,6 +8,4 @@ tags: [ Multimédia ]
 ---
 
 
-# Démarrage rapide
-
 {{< getting_started "Jellyfin" "jellyfin" >}}

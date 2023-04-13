@@ -8,6 +8,4 @@ tags: [ Productivité ]
 ---
 
 
-# Démarrage rapide
-
 {{< getting_started "Outline" "outline" >}}

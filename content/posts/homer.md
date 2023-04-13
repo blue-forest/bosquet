@@ -7,6 +7,4 @@ categories: [ Open Source ]
 ---
 
 
-# Démarrage rapide
-
 {{< getting_started "Homer" "homer" >}}

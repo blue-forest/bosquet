@@ -8,6 +8,4 @@ tags: [ Développement ]
 ---
 
 
-# Démarrage rapide
-
 {{< getting_started "Gitea" "gitea" >}}

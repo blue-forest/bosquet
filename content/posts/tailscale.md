@@ -8,6 +8,4 @@ tags: [ Réseau ]
 ---
 
 
-# Démarrage rapide
-
 {{< getting_started "Tailscale" "tailscale" >}}
