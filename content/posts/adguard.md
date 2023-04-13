@@ -2,9 +2,9 @@
 title: Bloquez les publicités et les traceurs sur tous vos appareils avec AdGuard Home
 date: 2023-04-05T04:20:00+01:00
 author: nazim
-draft: true
+draft: false
 categories: [ Open Source ]
-tags: [ Sécurité, Réseau ]
+tags: [ Réseau, Sécurité ]
 ---
 
 Il existe de multiples manières de bloquer les publicités et les traceurs sur Internet, la plus commune et la simple étant d'utiliser une extension pour votre navigateur. Vous avez par exemple AdBlock ou uBlock Origin qui sont des solutions populaires et efficaces.
