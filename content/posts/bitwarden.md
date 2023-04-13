@@ -4,7 +4,7 @@ date: 2023-04-04T04:20:00+01:00
 author: nazim
 draft: false
 categories: [ Open Source ]
-tags: [ Sécurité, Mots de passe ]
+tags: [ Sécurité ]
 ---
 
 Il existe de nombreux gestionnaires de mots de passe, qu'ils soient gratuits ou payants, ils permettent de stocker vos mots de passe de manière (relativement) sécurisée et d'y accéder facilement avec une intégration dans votre navigateur et votre smartphone.
