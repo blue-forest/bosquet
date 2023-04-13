@@ -19,4 +19,5 @@ npx bosquet -y ` (.Get 1) `
 
 {{ (delimit (slice `~~~bash
 docker run --rm -it -v $HOME/.bosquet/:/root/.bosquet node:alpine npx -y bosquet ` (.Get 1) `
+docker compose up -f $HOME/.bosquet/` (.Get 1) `/docker-compose.yml
 ~~~`) "") | replaceRE "~~~" "```" | markdownify }}
