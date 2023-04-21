@@ -15,9 +15,18 @@ Contrairement aux idées reçues, Linux n'est pas seulement pour les développeu
 
 # Distributions Linux
 
-La première chose que vous devez savoir est que Linux a proprement dit n'est pas en soi un système d'exploitation, mais un noyau. Un noyau est le cœur d'un système d'exploitation et est responsable de la gestion des ressources matérielles et de la communication avec les applications. Linux a été créé par Linus Torvalds en 1991 et son code source est disponible sur GitHub : [github.com/torvalds/linux](https://github.com/torvalds/linux).
+La première chose que vous devez savoir est que Linux a proprement parler n'est pas en soi un système d'exploitation entier, mais un noyau. Un noyau est le cœur d'un système d'exploitation et est responsable de la gestion des ressources matérielles et de la communication avec les applications. Linux a été créé par Linus Torvalds en 1991 et son code source est disponible sur GitHub : [github.com/torvalds/linux](https://github.com/torvalds/linux).
 
-Depuis sa création, Linux a été utilisé comme noyau pour de nombreux systèmes d'exploitation différents, les plus populaires sont Debian, Arch Linux ou encore Red Hat. Ils sont très nombreux et vous pouvez en trouver [une liste complète sur Wikipédia](https://fr.wikipedia.org/wiki/Liste_des_distributions_GNU/Linux), mais nous allons nous concentrer sur les plus populaires.
+Depuis sa création, Linux a été utilisé comme noyau pour de nombreux systèmes d'exploitation différents, les plus populaires sont Debian, Arch Linux ou encore Red Hat. Pour faire simple, une distribution Linux est un assemblage de différents programmes, une pré-configuration pour tous ces derniers et des outils pour les installer et les mettre à jour. Chaque distribution Linux a ses propres caractéristiques et est adaptée à un usage particulier. Elles sont très nombreuses et vous pouvez en trouver [une liste complète sur Wikipédia](https://fr.wikipedia.org/wiki/Liste_des_distributions_GNU/Linux), mais nous allons nous concentrer sur les plus populaires. Chez Blue Forest par exemple nous utilisons [Fedora](#fedora) et [Arch Linux](#arch-linux) pour nos machines de développement.
+
+Avant de commencer à mettre en avant des distributions Linux, il est important de comprendre que la partie visuelle - et de manière générale votre expérience utilisateur - ne dépend pas directement de la distribution que vous utilisez, mais de l'environnement de bureau que vous choisissez. La section [Environnements de bureau](#environnements-de-bureau) vous en dira plus à ce sujet et vous permettra de choisir celui qui vous convient le mieux sachant que vous pouvez en installer plusieurs et les changer à la volée.
+
+
+## Fedora
+
+![](https://upload.wikimedia.org/wikipedia/commons/8/8f/Fedora_logo_%282021%29.svg?download)
+
+Fedora est une distribution Linux créée en 2003 par  l'entreprise Red Hat. Vous pouvez en apprendre plus [sur leur site officiel](https://fedoraproject.org/fr/) ou sur [Wikipédia](https://fr.wikipedia.org/wiki/Fedora_Linux). Leur code source est disponible sur [src.fedoraproject.org](https://src.fedoraproject.org/). L'environnement de bureau par défaut est [GNOME](#gnome).
 
 
 ## Debian
@@ -25,6 +34,7 @@ Depuis sa création, Linux a été utilisé comme noyau pour de nombreux systèm
 ![](https://upload.wikimedia.org/wikipedia/commons/4/4a/Debian-OpenLogo.svg?download)
 
 Debian est une très ancienne distribution Linux, elle a été créée en 1993 par Ian Murdock. Vous pouvez en apprendre plus [sur leur site officiel](https://www.debian.org/intro/why_debian) ou sur [Wikipédia](https://fr.wikipedia.org/wiki/Debian). Leur code source est disponible sur [sources.debian.org](https://sources.debian.org/). L'environnement de bureau par défaut est [GNOME](#gnome), mais vous pouvez en installer d'autres facilement.
+
 
 ## Ubuntu
 
@@ -45,7 +55,6 @@ Arch Linux est une distribution Linux très populaire, créée en 2002 elle fut 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/85/Manjaro_logo_text.svg?download)
 
 Manjaro est une distribution basée sur [Arch Linux](#arch-linux) créée en 2012. Vous pouvez en apprendre plus sur [leur site officiel](https://manjaro.org/) ou sur [Wikipédia](https://fr.wikipedia.org/wiki/Manjaro_Linux). Leur code source est disponible sur [github.com/manjaro](https://github.com/manjaro). L'environnement de bureau par défaut est [GNOME](#gnome).
-
 
 
 
