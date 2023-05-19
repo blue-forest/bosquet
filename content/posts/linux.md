@@ -28,7 +28,7 @@ Avant de commencer à mettre en avant des distributions Linux, il est important 
 
 Fedora est une distribution Linux créée en 2003 par  l'entreprise Red Hat. Vous pouvez en apprendre plus [sur leur site officiel](https://fedoraproject.org/fr/) ou sur [Wikipédia](https://fr.wikipedia.org/wiki/Fedora_Linux). Leur code source est disponible sur [src.fedoraproject.org](https://src.fedoraproject.org/). L'environnement de bureau par défaut est [GNOME](#gnome).
 
-Chez Blue Forest par exemple nous utilisons [Arch Linux](#arch-linux) et [Fedora](#fedora) sur nos machines. Nous vous conseillons de tester plusieurs distributions pour trouver celle qui vous convient le mieux, nous verrons comment le faire un peu plus loin dans cet article. Si vous ne savez pas par où commencer, nous vous conseillons de partir sur [Ubuntu](#ubuntu), [Linux Mint](#linux-mint) ou [Fedora](#fedora).
+Chez Blue Forest par exemple nous utilisons [Arch Linux](#arch-linux) et [Fedora](#fedora) sur nos machines. Nous vous conseillons de tester plusieurs distributions pour trouver celle qui vous convient le mieux, nous verrons comment le faire un peu plus loin dans cet article. Si vous ne savez pas par où commencer, nous vous conseillons de partir sur [Linux Mint](#linux-mint) ou [Fedora](#fedora).
 
 
 ## Debian
@@ -85,6 +85,10 @@ NixOS est une distribution Linux créée en 2003 et est un peu plus complexe que
 # Environnements de bureau
 
 ## GNOME
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/06/Gnome-40-shell.png?download)
+
+https://fr.wikipedia.org/wiki/GNOME
 
 ## KDE
 
