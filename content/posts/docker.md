@@ -23,7 +23,7 @@ docker run --rm alpine echo "Bonjour, je suis un conteneur !"
 ```
 
 Pour mieux comprendre ce que fait cette commande, nous allons la décomposer :
-- `docker` : c'est le nom de la commande Docker qui permet de dialoguer avec le service Docker
+- `docker` : nom de la commande permettant de dialoguer avec Docker
 - `run` : instruction permettant de lancer un conteneur
 - `--rm` : option permettant de supprimer le conteneur une fois qu'il a été exécuté
 - `alpine` : nom du modèle de conteneur (appelé image) à utiliser pour créer le conteneur
@@ -42,7 +42,7 @@ Bonjour, je suis un conteneur !
 Ici, Docker vérifie d'abord si l'image `alpine` est présente sur votre machine, comme ce n'est pas le cas il la récupère depuis [Docker Hub](https://hub.docker.com/) qui est un registre d'images Docker. Une fois l'image récupérée, Docker crée un conteneur à partir de cette image et exécute la commande `echo "Bonjour, je suis un conteneur !"` dans ce conteneur. Enfin, une fois la commande exécutée, Docker supprime le conteneur.
 
 
-# Rentrer dans un conteneur
+# Entrer dans un conteneur
 
 Un conteneur est un environnement virtuel isolé, il possède donc son propre système de fichiers, ses propres processus, ses propres ressources réseau, etc. Nous allons voir comment nous pouvons rentrer dans un conteneur pour interagir avec son système de fichiers et ses processus, pour cela exécutez la commande suivante :
 

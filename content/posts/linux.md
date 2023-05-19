@@ -17,7 +17,16 @@ Contrairement aux idées reçues, Linux n'est pas seulement fait pour des utilis
 
 La première chose que vous devez savoir est que Linux n'est pas en soi un système d'exploitation mais un noyau. Un noyau est le cœur d'un système d'exploitation et est responsable de la gestion des ressources matérielles et de la communication avec les applications. Linux a été créé par Linus Torvalds en 1991 et son code source est disponible sur GitHub : [github.com/torvalds/linux](https://github.com/torvalds/linux).
 
-Depuis sa création, Linux a été utilisé comme noyau pour de nombreux systèmes d'exploitation différents, les plus populaires sont Debian, Arch Linux ou encore Red Hat. Ils sont très nombreux et vous pouvez en trouver [une liste complète sur Wikipédia](https://fr.wikipedia.org/wiki/Liste_des_distributions_GNU/Linux), mais nous allons nous concentrer sur les plus populaires.
+Depuis sa création, Linux a été utilisé comme noyau pour de nombreux systèmes d'exploitation différents, les plus populaires sont Debian, Arch Linux ou encore Red Hat. Pour faire simple, une distribution Linux est un assemblage de différents programmes, une pré-configuration pour tous ces derniers et des outils pour les installer et les mettre à jour. Chaque distribution Linux a ses propres caractéristiques et est adaptée à un usage particulier. Elles sont très nombreuses et vous pouvez en trouver [une liste complète sur Wikipédia](https://fr.wikipedia.org/wiki/Liste_des_distributions_GNU/Linux), mais nous allons nous concentrer sur les plus populaires. Chez Blue Forest par exemple nous utilisons [Fedora](#fedora) et [Arch Linux](#arch-linux) pour nos machines de développement.
+
+Avant de commencer à mettre en avant des distributions Linux, il est important de comprendre que la partie visuelle - et de manière générale votre expérience utilisateur - ne dépend pas directement de la distribution que vous utilisez, mais de l'environnement de bureau que vous choisissez. La section [Environnements de bureau](#environnements-de-bureau) vous en dira plus à ce sujet et vous permettra de choisir celui qui vous convient le mieux sachant que vous pouvez en installer plusieurs et les changer à la volée.
+
+
+## Fedora
+
+![](https://upload.wikimedia.org/wikipedia/commons/8/8f/Fedora_logo_%282021%29.svg?download)
+
+Fedora est une distribution Linux créée en 2003 par  l'entreprise Red Hat. Vous pouvez en apprendre plus [sur leur site officiel](https://fedoraproject.org/fr/) ou sur [Wikipédia](https://fr.wikipedia.org/wiki/Fedora_Linux). Leur code source est disponible sur [src.fedoraproject.org](https://src.fedoraproject.org/). L'environnement de bureau par défaut est [GNOME](#gnome).
 
 Chez Blue Forest par exemple nous utilisons [Arch Linux](#arch-linux) et [Fedora](#fedora) sur nos machines. Nous vous conseillons de tester plusieurs distributions pour trouver celle qui vous convient le mieux, nous verrons comment le faire un peu plus loin dans cet article. Si vous ne savez pas par où commencer, nous vous conseillons de partir sur [Ubuntu](#ubuntu), [Linux Mint](#linux-mint) ou [Fedora](#fedora).
 
@@ -27,6 +36,7 @@ Chez Blue Forest par exemple nous utilisons [Arch Linux](#arch-linux) et [Fedora
 ![](https://upload.wikimedia.org/wikipedia/commons/4/4a/Debian-OpenLogo.svg?download)
 
 Debian est une très ancienne distribution Linux, elle a été créée en 1993 par Ian Murdock. Vous pouvez en apprendre plus [sur leur site officiel](https://www.debian.org/intro/why_debian) ou sur [Wikipédia](https://fr.wikipedia.org/wiki/Debian). Son code source est disponible sur [sources.debian.org](https://sources.debian.org/). L'environnement de bureau par défaut est [GNOME](#gnome), mais vous pouvez en installer d'autres facilement.
+
 
 
 ## Ubuntu
@@ -69,7 +79,6 @@ Linux Mint est une distribution basée sur [Ubuntu](#ubuntu) créée en 2006. Vo
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c4/NixOS_logo.svg?download)
 
 NixOS est une distribution Linux créée en 2003 et est un peu plus complexe que les autres car elle utilise un principe très différent : tout votre système d'exploitation est décrit dans des fichiers de configurations, ce qui permet très facilement de le répliquer ou de revenir en arrière. Vous pouvez en apprendre plus [sur leur site officiel](https://nixos.org/) ou sur [Wikipédia](https://fr.wikipedia.org/wiki/NixOS). Son code source est disponible sur [github.com/NixOS](https://github.com/NixOS). Avant de l'utiliser, nous vous conseillons d'avoir déjà quelques notions sur Linux et de bien vous renseigner sur son fonctionnement. Nous l'avons inclus dans cette liste car il est très intéressant et passionnant à explorer.
-
 
 
 
