@@ -84,15 +84,32 @@ NixOS est une distribution Linux créée en 2003 et est un peu plus complexe que
 
 # Environnements de bureau
 
+Maintenant que nous avons fait un tour des distributions Linux, il est important de vous introduire au concept d'environnement de bureau. Un environnement de bureau est un programme qui permet de gérer l'interface graphique de votre système d'exploitation. Il existe de nombreux environnements de bureau différents, chacun ayant ses propres caractéristiques et son propre style.
+
+Vous pouvez en installer plusieurs et les changer à la volée ce qui vous permet de tester différents environnements de bureau et de choisir celui qui vous convient le mieux. Il ne faut donc pas choisir une distribution Linux en fonction de l'environnement de bureau qu'elle utilise, mais plutôt choisir une distribution qui vous convient et ensuite choisir l'environnement de bureau que vous souhaitez utiliser.
+
 ## GNOME
 
 ![](https://upload.wikimedia.org/wikipedia/commons/0/06/Gnome-40-shell.png?download)
 
-https://fr.wikipedia.org/wiki/GNOME
+GNOME a été créé en 1999, vous pouvez en apprendre plus [sur leur site officiel](https://www.gnome.org/) ou sur [Wikipédia](https://fr.wikipedia.org/wiki/GNOME). Son code source est disponible sur [gitlab.gnome.org](https://gitlab.gnome.org/GNOME). Il est très complet et possède de nombreuses fonctionnalités. Il est très simple à utiliser et est très bien adapté aux débutants. Il est très personnalisable et vous pouvez facilement changer son apparence avec des thèmes et des extensions.
 
 ## KDE
 
+![](https://upload.wikimedia.org/wikipedia/commons/a/a9/KDE_Plasma_5.16.png?download)
+
+KDE a été créé en 1998 et comme [GNOME](#gnome) est très complet. Vous pouvez en apprendre plus [sur leur site officiel](https://kde.org/fr/) ou sur [Wikipédia](https://fr.wikipedia.org/wiki/KDE). Son code source est disponible sur [invent.kde.org](https://invent.kde.org/).
+
+
 ## Xfce
+
+![](https://upload.wikimedia.org/wikipedia/commons/2/21/Xfce-4.12.png?download)
+
+1996
+
+https://www.xfce.org
+
+https://fr.wikipedia.org/wiki/Xfce
 
 ## LXDE
 
