@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  server:
+    image: nocodb/nocodb:latest
+    ports: [ 8080:8080 ]
+    volumes: [ data:/usr/app/data ]
+volumes:
+  data:
