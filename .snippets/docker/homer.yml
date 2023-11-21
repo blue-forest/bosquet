@@ -3,8 +3,10 @@ services:
   server:
     image: b4bz/homer:latest
     volumes:
-    - ./data:/www/assets
+    - assets:/www/assets
     environment:
       #INIT_ASSETS: 0 # A utiliser après le premier lancement
     ports:
-    - "8080:8080"
+    - 8080:8080
+volumes:
+  assets:

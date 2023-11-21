@@ -2,9 +2,9 @@ version: "3.7"
 services:
   server:
     image: vaultwarden/server:latest
-    ports: [ "80:80" ]
+    ports: [ 80:80 ]
     env:
-      DOMAIN: #- Domaine de l'instance
+      DOMAIN: localhost #- Domaine de l'instance
       SIGNUPS_ALLOWED: "true"
       INVITATIONS_ALLOWED: "true"
       WEBSOCKET_ENABLED: "true"
@@ -14,4 +14,6 @@ services:
       SMTP_PASSWORD: #- Mot de passe SMTP
       SERVER_ADMIN_EMAIL: #- Adresse email de l'administrateur
     volumes:
-    - ./data:/data
+    - data:/data
+volumes:
+  data:
