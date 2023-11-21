@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  server:
+    container_name: baserow
+    image: baserow/baserow:latest
+    environment:
+      BASEROW_PUBLIC_URL: "http://localhost" #- Nom de domaine public
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - data:/baserow/data
+volumes:
+  data:
